@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 79%;
+    background-color: #0064bd;
+}
+nav{
+    height: 8%;
+    border-bottom-style: solid;
+    border-color: #009FE3;
+    width: 100%;
+}
+#lnav{
+    width: 50%;
+    padding-top: 1%;
+    height: 100%;
+    margin-right: 0;
+    float: left;
+}
+#rnav{
+    width: 50%;
+    padding-top: 1%;
+    height: 100%;
+    margin-left: 0;
+    float: right;
+}
+h1{
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-left: 2%;
+}
+.button {
+    background-color: #009FE3;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+  
+  .button:hover,
+  .button:focus {
+    background-color: #07c;
+  }
+  
+  .button:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+  }
+  
+  .button:active {
+    background-color: #0064bd;
+    box-shadow: none;
+  }
+#navknapp{
+    float: right;
+    margin-right: 2%;
+}
+footer{
+    height: 12%;
+    border-top-style: solid;
+    border-color: #009FE3;
+}
+#lfoot{
+    float: left;
+    width: 50%;
+}
+#fottext{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 5%;
+    width: 40%;
+}
+#rfoot{
+    float: right;
+    width: 50%;
+}
+#icon{
+    height: 100%;
+    float: right;
+    margin-right: 1.5%;
+}
+#form{
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    width: 20%;
+    height: 60%;
+    margin-left: 40%;
+    margin-top: 5%;
+    border: 3px solid;
+    border-color: #009FE3;
+    border-radius: 10%;
+}
+form{
+    margin-top: 10%;
+}
+.submit{
+    margin-top: 10%;
+    font-family: 'Raleway', sans-serif;
+}
+#konto{
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 10%;
+}
+label{
+    font-size: 120%;
+    font-family: 'Raleway', sans-serif;
+  }

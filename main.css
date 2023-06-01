@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+nav{
+    height: 8%;
+    border-bottom-style: solid;
+    border-color: #009FE3;
+    width: 100%;
+}
+#lnav{
+    width: 50%;
+    padding-top: 1%;
+    height: 100%;
+    margin-right: 0;
+    float: left;
+}
+#rnav{
+    width: 50%;
+    padding-top: 1%;
+    height: 100%;
+    margin-left: 0;
+    float: right;
+}
+h1{
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-left: 2%;
+}
+
+main{
+    height: 79%;
+    background-image:url(Bilder/tabycentrum.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+footer{
+    height: 12%;
+    border-top-style: solid;
+    border-color: #009FE3;
+}
+#lfoot{
+    float: left;
+    width: 50%;
+}
+#fottext{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 5%;
+    width: 40%;
+    margin-top: 1%;
+}
+#rfoot{
+    float: right;
+    width: 50%;
+}
+#hero{
+    width: 100%;
+    height: 100%;
+}
+#icon{
+    height: 100%;
+    float: right;
+    margin-right: 1.5%;
+}
+
+.button {
+  background-color: #009FE3;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #07c;
+}
+
+.button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+#kontaktknapp{  
+    margin-top: 3%;
+    margin-left: 68%;
+}
+
+#navknapp{
+    float: right;
+    margin-right: 2%;
+}
+#sec1{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+#sec2{
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+#rutan {
+    height: 45%;
+    width: 25%;
+    border: 3px solid;
+    border-color: #009FE3;
+    border-radius: 15%;
+    background-color: white;
+    overflow: hidden;
+    float: right;
+    margin-right: 10%;
+    margin-top: 10%;   
+}
+#rutantopp{
+height: 50%;
+margin-bottom: 0%;
+}
+#jensen{
+width: 100%;
+}
+#rutanbott{
+margin-top: 30%;
+padding-top: 4%;
+text-align: center;
+border-top: solid;
+border-width: 3px;
+border-color: #009FE3;
+font-family: 'Raleway', sans-serif;
+font-size: 100%;
+}
